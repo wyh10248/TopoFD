@@ -1,0 +1,37 @@
+{
+  "dataset": "MDAD",
+  "folds": 5,
+  "seed": 42,
+  "epochs": 60,
+  "protocol": "original_cached_full_data_similarity",
+  "metrics": {
+    "AUC": {
+      "mean": 0.9814912553885495,
+      "std_sample": 0.002091064786343319
+    },
+    "AUPR": {
+      "mean": 0.9841178710578292,
+      "std_sample": 0.0014077805091396764
+    },
+    "F1": {
+      "mean": 0.9324368943697647,
+      "std_sample": 0.0027419792899253895
+    },
+    "Accuracy": {
+      "mean": 0.9327935222672064,
+      "std_sample": 0.002915963621637218
+    },
+    "Recall": {
+      "mean": 0.9275303643724696,
+      "std_sample": 0.015107779884247202
+    },
+    "Specificity": {
+      "mean": 0.9380566801619434,
+      "std_sample": 0.017032942484180285
+    },
+    "Precision": {
+      "mean": 0.9377964337840993,
+      "std_sample": 0.015840085156353965
+    }
+  }
+}
